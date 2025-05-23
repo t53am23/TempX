@@ -1,0 +1,3 @@
+!pip install uv
+!uv run --prerelease allow --with git+https://github.com/attentionmech/smolbox smolbox inspect/mav --model_path meta-llama/Llama-3.2-1B --max_new_tokens 30 --prompt "Translate the date '农历二〇二五八月初二' in Chinese Lunar calandar to gregorian date format into the format '%d-%m-%Y'and add 50 years 3 weeks 10 days.  Give the translated answer of each without using Python. The answer is:"
+!uv run ... --save_hidden_states './hidden_states_1923.pkl'
